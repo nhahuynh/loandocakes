@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/loandocakes/static/css/main.a617e044.chunk.css",
+    "main.js": "/loandocakes/static/js/main.90505790.chunk.js",
+    "main.js.map": "/loandocakes/static/js/main.90505790.chunk.js.map",
+    "runtime-main.js": "/loandocakes/static/js/runtime-main.a3c1998d.js",
+    "runtime-main.js.map": "/loandocakes/static/js/runtime-main.a3c1998d.js.map",
+    "static/js/2.1891ef32.chunk.js": "/loandocakes/static/js/2.1891ef32.chunk.js",
+    "static/js/2.1891ef32.chunk.js.map": "/loandocakes/static/js/2.1891ef32.chunk.js.map",
+    "static/js/3.ba3933c6.chunk.js": "/loandocakes/static/js/3.ba3933c6.chunk.js",
+    "static/js/3.ba3933c6.chunk.js.map": "/loandocakes/static/js/3.ba3933c6.chunk.js.map",
+    "index.html": "/loandocakes/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/loandocakes/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.1891ef32.chunk.js.LICENSE.txt": "/loandocakes/static/js/2.1891ef32.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/loandocakes/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3c1998d.js",
+    "static/js/2.1891ef32.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.90505790.chunk.js"
+  ]
+}
