@@ -1,0 +1,160 @@
+/*GENERAL STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #906272;
+}
+
+@font-face {
+  font-family: "Vibes";
+  src: url("/src/assets/fonts/GreatVibes-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lusi Bold";
+  src: url("/src/assets/fonts/Lusitana-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lusi";
+  src: url("/src/assets/fonts/Lusitana-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/assets/fonts/Poppins-Regular.ttf");
+}
+
+html {
+  font-size: 50%;
+  --header1: calc(2rem + 1vw);
+  --header2: calc(3.5rem + 1vw);
+  --header3: calc(3rem + 1vw);
+  --header4: calc(2.4rem + 1vw);
+  --text: calc(1.25rem + 1vw);
+  --bigtext: calc(2.4rem + 1vw);
+  --smalltext: calc(0.7rem + 1vw);
+  --special-color: #906272;
+  --background-color: #414141;
+  --gray-text: #525252;
+}
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: var(--text);
+}
+h1 {
+  font-size: var(--header1);
+}
+
+h2 {
+  font-size: var(--header2);
+}
+
+h3 {
+  font-size: var(--header3);
+}
+
+h4 {
+  font-size: var(--header4);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #414141;
+}
+
+body {
+  font-family: "Lusi", sans-serif;
+}
+
+/*FOOTER */
+footer {
+  background: var(--special-color);
+  color: white;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer p,
+i {
+  padding: 0.5rem 1.5rem;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+footer a {
+  color: white;
+}
+
+/* Media queries */
+@media screen and (max-width: 842px) {
+  .hero {
+    width: 100%;
+  }
+  .about {
+    width: 100%;
+  }
+  .about-text div {
+    padding: 3rem 3rem;
+  }
+
+  .hero-introduction p {
+    padding: 5rem 3rem;
+  }
+
+  .gallery-filter {
+    width: 90%;
+    margin: 2rem;
+  }
+  .gallery {
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+  .gallery img {
+    grid-row: auto;
+    grid-column: auto;
+    justify-items: center;
+  }
+}
+/* 
+@media screen and (min-width: 1700px) {
+  html {
+    --header1: 3rem;
+    --header2: 5rem;
+    --header3: 4rem;
+    --header4: 3rem;
+    --text: 2rem;
+    --big: 8rem;
+  }
+}
+*/

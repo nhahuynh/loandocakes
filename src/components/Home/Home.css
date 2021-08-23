@@ -1,0 +1,138 @@
+/*HERO SECTION STYLING */
+.hero {
+  min-height: 70vh;
+  width: 100%;
+  margin: 0 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-introduction {
+  flex: 2 1 40rem;
+  text-align: center;
+  color: var(--gray-text);
+}
+.hero-introduction p {
+  padding: 5rem 10rem;
+}
+.hero-introduction h2 {
+  padding-top: 2rem;
+  color: var(--background-color);
+}
+
+.hero-introduction a {
+  padding: 2rem 8rem;
+  border: 3px solid var(--gray-text);
+  margin-bottom: 3rem;
+  color: var(--background-color);
+}
+
+.hero-images {
+  flex: 1 1 30rem;
+}
+
+.hero-cake {
+  clip-path: circle(84% at 100% 27%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ABOUT STYLING */
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 2 1 30rem;
+  width: 100vw;
+  justify-content: space-around;
+  background: var(--special-color);
+  color: white;
+  padding-bottom: 5rem;
+}
+
+.about-text div {
+  padding: 2rem 15rem;
+}
+
+.about-text p {
+  font-size: var(--text);
+}
+
+.about-text h2 {
+  font-family: "Lusi";
+  margin-top: 2rem;
+}
+
+.about-text h3 {
+  padding: 2rem 0rem;
+  font-family: "Poppins";
+}
+
+.about-text h4 {
+  padding: 1.5rem 0rem;
+}
+
+.about-image {
+  flex: 1 1 40rem;
+}
+
+.about-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*MINI GALLERY ON HOME PAGE */
+
+.gallery-head {
+  color: #414141;
+  background: white;
+  padding: 10rem;
+  text-align: Center;
+}
+.gallery-head p {
+  padding-top: 2rem;
+  display: inline-block;
+}
+.gallery-head p:hover {
+  border-bottom: 2px solid var(--background-color);
+}
+.galleryhome {
+  display: grid;
+  min-height: 50vh;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 50rem));
+  grid-gap: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10rem;
+  justify-content: center;
+}
+
+.galleryhome img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    width: 100%;
+  }
+  .hero-cake {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+  p,
+  .about-text p {
+    font-size: 23px;
+  }
+  .about-text div {
+    padding: 2rem 6rem;
+  }
+  .galleryhome {
+    padding-bottom: 5rem;
+  }
+}
